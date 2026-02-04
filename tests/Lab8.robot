@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 
-*** Keywords ***
+*** Test Cases ***
 Open Browser To Login Page
     ${chrome_options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys
     Call Method    ${chrome_options}    add_argument    --no-sandbox
